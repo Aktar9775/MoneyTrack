@@ -1,0 +1,74 @@
+body{
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.form{
+    margin-top: 100px;
+    text-align: left;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background: #97B3E5;
+    background: linear-gradient(135deg, #97B3E5, #2A53E0);
+    color: white;
+
+}
+.input label{
+    font-weight: bold;
+    padding:4px;
+}
+
+.input select, input{
+
+    border: 2px solid #97B3E5;
+    border-radius: 10px;
+}
+#addbtn{
+   
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#97B3E5;
+    border: 2px solid, #2A53E0;
+    border-radius: 30px;
+    color: white;
+}
+#addbtn:hover{
+    background-color:#2A53E0;
+    color:white;
+}
+
+
+.expenselist{
+    margin: 20px 20px 20px 0px;
+    
+}
+.expenselist h2{
+    margin-top: 50px;
+    color: black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #121212;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color:#2A53E0;
+    color: white;
+}
+tfoot td{
+    font-weight: bold;
+}
+button{
+    padding: 5px 10px;
+    background-color:#f45167;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
